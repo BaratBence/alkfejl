@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8">
+    <title>Create an account</title>
+</head>
+<body>
+  <div class="container">
+      <p th:text="'username: ' + ${user.username}" />
+      <p th:text="'password: ' + ${user.password}" />
+      <a href="/greeting">Submit another message</a>
+  </div>
+</body>
+</html>
